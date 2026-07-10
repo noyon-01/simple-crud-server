@@ -32,7 +32,7 @@ export default function UserTable({ users, deleteUserAction }) {
                       Detials
                     </Button>
                   </Link>
-                  <Link href={`users/${user._id}`}>
+                  <Link href={`users/${user._id}/edit`}>
                     <Button variant="primary">Edit</Button>
                   </Link>
                   <Button
